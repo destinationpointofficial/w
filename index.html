@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Destination Point – West Bengal's premier coaching institute for Class 6 to 12 (WB Board). All subjects, expert faculty, proven results."/>
+  <title>Destination Point – Coaching Institute | Class 6 to 12 WB Board</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">DP</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">🎓</span>
+        <span class="logo-text">Destination<span class="highlight">Point</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#courses" class="nav-link">Courses</a></li>
+        <li><a href="#features" class="nav-link">Why Us</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#batches" class="nav-link">Batches</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#contact" class="nav-btn">Enroll Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <!-- Slides -->
+    <div class="hero-slider" id="heroSlider">
+      <div class="slide active" style="background-image:url('images/photo1.jpg')"></div>
+      <div class="slide" style="background-image:url('images/photo3.jpg')"></div>
+      <div class="slide" style="background-image:url('images/photo4.jpg')"></div>
+      <div class="slide" style="background-image:url('images/photo5.jpg')"></div>
+      <div class="slide" style="background-image:url('images/photo6.jpg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">✦ West Bengal Board Coaching ✦</div>
+      <h1 class="hero-title">Welcome to<br/><span class="gradient-text">Destination Point</span></h1>
+      <p class="hero-subtitle">Where Every Student Finds Their Path to Success</p>
+      <p class="hero-desc">Expert coaching for <strong>Class 6 – 12</strong> | All subjects | West Bengal Board</p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary" id="heroEnroll">Enroll Now</a>
+        <a href="#courses" class="btn-outline" id="heroExplore">Explore Courses</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" data-target="500">0</span>+<p>Happy Students</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="7">0</span>+<p>Years Experience</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="95">0</span>%<p>Pass Rate</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="15">0</span>+<p>Expert Faculty</p></div>
+      </div>
+    </div>
+    <div class="hero-indicators" id="heroIndicators"></div>
+    <button class="hero-arrow prev" id="heroPrev" aria-label="Previous">&#8249;</button>
+    <button class="hero-arrow next" id="heroNext" aria-label="Next">&#8250;</button>
+    <div class="hero-scroll-hint"><span></span> Scroll Down</div>
+  </section>
+
+  <!-- ===== NOTICE TICKER ===== -->
+  <div class="ticker-wrap">
+    <div class="ticker-label">📢 Notice</div>
+    <div class="ticker-content">
+      <span>🎉 Admissions Open for 2024-25 Session! &nbsp;|&nbsp; 🏆 100+ Students Scored Above 80% in Last Board Exam! &nbsp;|&nbsp; 📚 New Batch Starting Soon for Class 9 & 10 &nbsp;|&nbsp; 🎓 Free Demo Class Available – Register Now! &nbsp;|&nbsp; 📞 Call Us: +91 98000 00000 &nbsp;|&nbsp; ✔️ Special Science & Math Batch for Class 11 & 12</span>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-img-wrap">
+            <img src="images/photo6.jpg" alt="Destination Point Classroom" class="about-img" loading="lazy"/>
+            <div class="about-img-badge">
+              <span class="badge-num">7+</span>
+              <span class="badge-text">Years of<br/>Excellence</span>
+            </div>
+          </div>
+          <div class="about-card floating-card">
+            <div class="fcard-icon">🏅</div>
+            <div>
+              <strong>Trusted by Families</strong>
+              <p>Across West Bengal</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <div class="section-tag">About Us</div>
+          <h2 class="section-title">Shaping <span class="gradient-text">Bright Futures</span><br/>Since Day One</h2>
+          <p class="about-para">
+            <strong>Destination Point</strong> is a premier coaching institute dedicated to empowering students from <strong>Class 6 to Class 12</strong> under the West Bengal Board curriculum. We believe every student has the potential to excel — our role is to guide them to that destination.
+          </p>
+          <p class="about-para">
+            With a team of experienced and passionate educators, we provide <strong>comprehensive coaching in all subjects</strong> — from Mathematics and Science to English, Bengali, History, Geography and more. Our personalized approach ensures no student is left behind.
+          </p>
+          <div class="about-points">
+            <div class="apoint"><span class="apoint-icon">✅</span> WB Board Curriculum Expertise</div>
+            <div class="apoint"><span class="apoint-icon">✅</span> Small Batch Size for Personal Attention</div>
+            <div class="apoint"><span class="apoint-icon">✅</span> Regular Tests & Progress Reports</div>
+            <div class="apoint"><span class="apoint-icon">✅</span> Doubt Clearing Sessions</div>
+            <div class="apoint"><span class="apoint-icon">✅</span> Motivational & Holistic Learning</div>
+            <div class="apoint"><span class="apoint-icon">✅</span> Affordable Fee Structure</div>
+          </div>
+          <a href="#contact" class="btn-primary mt-20">Join Our Family</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COURSES ===== -->
+  <section id="courses" class="section courses-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Our Programs</div>
+        <h2 class="section-title">Courses We <span class="gradient-text">Offer</span></h2>
+        <p class="section-desc">Comprehensive coaching for all classes and subjects under the West Bengal Board</p>
+      </div>
+
+      <!-- Class Group Tabs -->
+      <div class="course-tabs" id="courseTabs">
+        <button class="ctab active" data-group="primary">Class 6 – 8</button>
+        <button class="ctab" data-group="secondary">Class 9 – 10</button>
+        <button class="ctab" data-group="higher">Class 11 – 12</button>
+      </div>
+
+      <!-- Primary -->
+      <div class="course-grid active" id="group-primary">
+        <div class="course-card"><div class="cc-icon">🔢</div><h3>Mathematics</h3><p>Number system, algebra, geometry, statistics with problem-solving focus.</p><div class="cc-tag">Class 6–8</div></div>
+        <div class="course-card"><div class="cc-icon">⚗️</div><h3>Science</h3><p>Physics, Chemistry, Biology concepts made engaging and easy.</p><div class="cc-tag">Class 6–8</div></div>
+        <div class="course-card"><div class="cc-icon">🌍</div><h3>Social Studies</h3><p>History, Geography & Civics for a strong social foundation.</p><div class="cc-tag">Class 6–8</div></div>
+        <div class="course-card"><div class="cc-icon">📖</div><h3>English</h3><h3></h3><p>Grammar, writing, comprehension & literature skills.</p><div class="cc-tag">Class 6–8</div></div>
+        <div class="course-card"><div class="cc-icon">🪷</div><h3>Bengali</h3><p>Language, literature, grammar & composition in Bengali.</p><div class="cc-tag">Class 6–8</div></div>
+        <div class="course-card"><div class="cc-icon">🌐</div><h3>Hindi</h3><p>Hindi language, grammar and literature for WB Board.</p><div class="cc-tag">Class 6–8</div></div>
+      </div>
+
+      <!-- Secondary -->
+      <div class="course-grid" id="group-secondary">
+        <div class="course-card"><div class="cc-icon">🔢</div><h3>Mathematics</h3><p>Algebra, trigonometry, coordinate geometry, statistics & board exam prep.</p><div class="cc-tag">Class 9–10 (Madhyamik)</div></div>
+        <div class="course-card"><div class="cc-icon">⚛️</div><h3>Physical Science</h3><p>Physics & Chemistry concepts with numerical practice and lab theory.</p><div class="cc-tag">Class 9–10 (Madhyamik)</div></div>
+        <div class="course-card"><div class="cc-icon">🌿</div><h3>Life Science</h3><p>Biology – cells, heredity, ecosystems, human physiology & board focus.</p><div class="cc-tag">Class 9–10 (Madhyamik)</div></div>
+        <div class="course-card"><div class="cc-icon">🗺️</div><h3>Geography</h3><p>Physical & human geography, map work and environmental studies.</p><div class="cc-tag">Class 9–10 (Madhyamik)</div></div>
+        <div class="course-card"><div class="cc-icon">🏛️</div><h3>History</h3><p>Indian & world history with timeline focus and source-based questions.</p><div class="cc-tag">Class 9–10 (Madhyamik)</div></div>
+        <div class="course-card"><div class="cc-icon">📖</div><h3>English</h3><p>Literature, grammar, writing & Madhyamik exam pattern preparation.</p><div class="cc-tag">Class 9–10 (Madhyamik)</div></div>
+        <div class="course-card"><div class="cc-icon">🪷</div><h3>Bengali</h3><p>Prose, poetry, grammar, essay writing for Madhyamik level.</p><div class="cc-tag">Class 9–10 (Madhyamik)</div></div>
+      </div>
+
+      <!-- Higher -->
+      <div class="course-grid" id="group-higher">
+        <div class="course-card"><div class="cc-icon">📐</div><h3>Mathematics (Hons)</h3><p>Calculus, algebra, vectors & HS-level exam-oriented problem solving.</p><div class="cc-tag">Class 11–12 (HS)</div></div>
+        <div class="course-card"><div class="cc-icon">⚡</div><h3>Physics</h3><p>Mechanics, electrodynamics, optics, modern physics for HS & beyond.</p><div class="cc-tag">Class 11–12 (HS)</div></div>
+        <div class="course-card"><div class="cc-icon">🧪</div><h3>Chemistry</h3><p>Organic, inorganic and physical chemistry with numerical practice.</p><div class="cc-tag">Class 11–12 (HS)</div></div>
+        <div class="course-card"><div class="cc-icon">🧬</div><h3>Biology</h3><p>Genetics, physiology, ecology, evolution and reproduction detailed notes.</p><div class="cc-tag">Class 11–12 (HS)</div></div>
+        <div class="course-card"><div class="cc-icon">💹</div><h3>Accountancy</h3><p>Financial accounting, partnership, company accounts – Commerce stream.</p><div class="cc-tag">Class 11–12 (HS)</div></div>
+        <div class="course-card"><div class="cc-icon">📊</div><h3>Economics</h3><p>Micro & macro economics, statistics and HS board pattern questions.</p><div class="cc-tag">Class 11–12 (HS)</div></div>
+        <div class="course-card"><div class="cc-icon">🏛️</div><h3>History & Pol. Science</h3><p>Arts stream subjects with in-depth notes and answer writing practice.</p><div class="cc-tag">Class 11–12 (HS)</div></div>
+        <div class="course-card"><div class="cc-icon">📖</div><h3>English</h3><p>Literature, writing, grammar and HS exam pattern practice.</p><div class="cc-tag">Class 11–12 (HS)</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section id="features" class="section features-section">
+    <div class="features-bg-glow"></div>
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Why Choose Us</div>
+        <h2 class="section-title">The <span class="gradient-text">Destination Point</span> Difference</h2>
+        <p class="section-desc">We go beyond just teaching – we create an environment for holistic growth</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="fc-icon">👨‍🏫</div>
+          <h3>Expert Faculty</h3>
+          <p>Experienced teachers dedicated to making concepts crystal-clear and exam-ready for every student.</p>
+        </div>
+        <div class="feature-card">
+          <div class="fc-icon">📋</div>
+          <h3>Regular Mock Tests</h3>
+          <p>Weekly tests and full-length mock exams modelled on WB Board pattern to build exam confidence.</p>
+        </div>
+        <div class="feature-card">
+          <div class="fc-icon">🔍</div>
+          <h3>Doubt Clearing</h3>
+          <p>Dedicated doubt sessions so no question goes unanswered and no concept remains unclear.</p>
+        </div>
+        <div class="feature-card">
+          <div class="fc-icon">📈</div>
+          <h3>Progress Tracking</h3>
+          <p>Monthly progress reports and parent-teacher meetings to keep families informed and involved.</p>
+        </div>
+        <div class="feature-card">
+          <div class="fc-icon">👥</div>
+          <h3>Small Batches</h3>
+          <p>Limited students per batch ensures personal attention, interactive classes and better learning.</p>
+        </div>
+        <div class="feature-card">
+          <div class="fc-icon">💡</div>
+          <h3>Study Material</h3>
+          <p>Comprehensive notes, question banks, and board-focused study materials provided to all students.</p>
+        </div>
+        <div class="feature-card">
+          <div class="fc-icon">🏆</div>
+          <h3>Proven Results</h3>
+          <p>Consistently outstanding results in Madhyamik and Higher Secondary board examinations.</p>
+        </div>
+        <div class="feature-card">
+          <div class="fc-icon">❤️</div>
+          <h3>Caring Environment</h3>
+          <p>A warm, supportive and motivating environment where students feel encouraged to grow.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section id="gallery" class="section gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Our Moments</div>
+        <h2 class="section-title">Life at <span class="gradient-text">Destination Point</span></h2>
+        <p class="section-desc">Memories, celebrations, and learning moments from our Destination Point family</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item g-large" data-caption="Our Destination Point Students Family">
+          <img src="images/photo1.jpg" alt="Students at Destination Point" loading="lazy"/>
+          <div class="g-overlay"><span>Our Students Family 🎓</span></div>
+        </div>
+        <div class="gallery-item" data-caption="Celebrating Together">
+          <img src="images/photo2.jpg" alt="Cultural Celebration" loading="lazy"/>
+          <div class="g-overlay"><span>Celebrating Together 🪔</span></div>
+        </div>
+        <div class="gallery-item" data-caption="Teacher's Day Celebration">
+          <img src="images/photo3.jpg" alt="Teacher's Day" loading="lazy"/>
+          <div class="g-overlay"><span>Teacher's Day 🌸</span></div>
+        </div>
+        <div class="gallery-item g-large" data-caption="Happy Teacher's Day!">
+          <img src="images/photo4.jpg" alt="Happy Teacher's Day" loading="lazy"/>
+          <div class="g-overlay"><span>Happy Teacher's Day! 🎉</span></div>
+        </div>
+        <div class="gallery-item" data-caption="Birthday Celebration at Institute">
+          <img src="images/photo6.jpg" alt="Birthday Celebration" loading="lazy"/>
+          <div class="g-overlay"><span>Celebrating Birthdays 🎂</span></div>
+        </div>
+        <div class="gallery-item" data-caption="Our Classroom Moments">
+          <img src="images/photo5.jpg" alt="Classroom Moments" loading="lazy"/>
+          <div class="g-overlay"><span>Classroom Moments 📚</span></div>
+        </div>
+      </div>
+    </div>
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lb-close" id="lbClose">✕</button>
+      <img src="" alt="" id="lbImg"/>
+      <p id="lbCaption"></p>
+    </div>
+  </section>
+
+  <!-- ===== BATCHES & FEES ===== -->
+  <section id="batches" class="section batch-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Batches & Fees</div>
+        <h2 class="section-title">Choose Your <span class="gradient-text">Batch</span></h2>
+        <p class="section-desc">Flexible timing and affordable fees designed for every family</p>
+      </div>
+      <div class="batch-grid">
+        <div class="batch-card">
+          <div class="bc-header">
+            <div class="bc-badge">Junior</div>
+            <h3>Class 6 – 8</h3>
+            <div class="bc-price">₹<span>800</span><small>/month</small></div>
+          </div>
+          <ul class="bc-features">
+            <li>✅ All WB Board Subjects</li>
+            <li>✅ 5 Days/Week Classes</li>
+            <li>✅ Weekly Tests</li>
+            <li>✅ Study Material Included</li>
+            <li>✅ Doubt Sessions</li>
+            <li>✅ Progress Reports</li>
+          </ul>
+          <div class="bc-timing"><span>⏰</span> Morning & Evening Batches</div>
+          <a href="#contact" class="btn-primary w-full">Enquire Now</a>
+        </div>
+        <div class="batch-card featured">
+          <div class="bc-ribbon">Most Popular</div>
+          <div class="bc-header">
+            <div class="bc-badge">Madhyamik</div>
+            <h3>Class 9 – 10</h3>
+            <div class="bc-price">₹<span>1200</span><small>/month</small></div>
+          </div>
+          <ul class="bc-features">
+            <li>✅ All Madhyamik Subjects</li>
+            <li>✅ 6 Days/Week Classes</li>
+            <li>✅ Mock Board Tests</li>
+            <li>✅ Notes + Question Banks</li>
+            <li>✅ Exam Strategy Sessions</li>
+            <li>✅ Parent-Teacher Meetings</li>
+          </ul>
+          <div class="bc-timing"><span>⏰</span> Morning, Afternoon & Evening</div>
+          <a href="#contact" class="btn-primary w-full">Enquire Now</a>
+        </div>
+        <div class="batch-card">
+          <div class="bc-header">
+            <div class="bc-badge">Higher Secondary</div>
+            <h3>Class 11 – 12</h3>
+            <div class="bc-price">₹<span>1500</span><small>/month</small></div>
+          </div>
+          <ul class="bc-features">
+            <li>✅ Science / Commerce / Arts</li>
+            <li>✅ 6 Days/Week Classes</li>
+            <li>✅ Full Mock Tests</li>
+            <li>✅ Chapter-wise Notes</li>
+            <li>✅ Career Guidance</li>
+            <li>✅ Board Exam Preparation</li>
+          </ul>
+          <div class="bc-timing"><span>⏰</span> Evening & Weekend Batches</div>
+          <a href="#contact" class="btn-primary w-full">Enquire Now</a>
+        </div>
+      </div>
+      <div class="batch-note">📌 Fees may vary slightly by subject combination. Contact us for the exact fee structure. Sibling discounts available!</div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimonials" class="section testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Testimonials</div>
+        <h2 class="section-title">What Our <span class="gradient-text">Students Say</span></h2>
+      </div>
+      <div class="testimonial-slider" id="testSlider">
+        <div class="tslide active">
+          <div class="tcard">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"Destination Point changed my life. I was struggling in Maths but the teachers here made it so simple. I scored 88 in Madhyamik!"</p>
+            <div class="tcard-author"><div class="tcard-avatar">R</div><div><strong>Riya Das</strong><span>Madhyamik 2023 | Class 10</span></div></div>
+          </div>
+        </div>
+        <div class="tslide">
+          <div class="tcard">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"The faculty is incredibly supportive and the doubt sessions are a lifesaver before exams. Highly recommend Destination Point!"</p>
+            <div class="tcard-author"><div class="tcard-avatar">S</div><div><strong>Subham Roy</strong><span>HS 2023 | Science Stream</span></div></div>
+          </div>
+        </div>
+        <div class="tslide">
+          <div class="tcard">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"My daughter joined here for Class 8 and now she's consistently scoring 90%+. The personal attention makes all the difference."</p>
+            <div class="tcard-author"><div class="tcard-avatar">M</div><div><strong>Mita Mondal</strong><span>Parent of Class 9 Student</span></div></div>
+          </div>
+        </div>
+        <div class="tslide">
+          <div class="tcard">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"Weekly tests kept me disciplined throughout the year. I owe my Madhyamik result to the amazing teachers at Destination Point."</p>
+            <div class="tcard-author"><div class="tcard-avatar">A</div><div><strong>Arnab Ghosh</strong><span>Madhyamik 2024 | Star Mark</span></div></div>
+          </div>
+        </div>
+        <div class="tslide">
+          <div class="tcard">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"The notes and question banks provided here are excellent. Every topic is explained from the board exam perspective. Best institute!"</p>
+            <div class="tcard-author"><div class="tcard-avatar">P</div><div><strong>Priya Sharma</strong><span>HS 2024 | Commerce Stream</span></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="tslider-dots" id="testDots"></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Get In Touch</div>
+        <h2 class="section-title">Enroll at <span class="gradient-text">Destination Point</span></h2>
+        <p class="section-desc">Fill in the form below and our team will reach out to you shortly</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <div class="ci-item">
+            <div class="ci-icon">📍</div>
+            <div>
+              <strong>Address</strong>
+              <p>Destination Point Coaching Institute,<br/>West Bengal, India</p>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon">📞</div>
+            <div>
+              <strong>Phone</strong>
+              <p>+91 98000 00000</p>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon">📧</div>
+            <div>
+              <strong>Email</strong>
+              <p>info@destinationpoint.in</p>
+            </div>
+          </div>
+          <div class="ci-item">
+            <div class="ci-icon">⏰</div>
+            <div>
+              <strong>Timing</strong>
+              <p>Mon – Sat: 7 AM – 9 PM<br/>Sunday: 9 AM – 1 PM</p>
+            </div>
+          </div>
+          <div class="ci-social">
+            <a href="#" class="social-btn" aria-label="Facebook">📘</a>
+            <a href="#" class="social-btn" aria-label="WhatsApp">📱</a>
+            <a href="#" class="social-btn" aria-label="Instagram">📸</a>
+            <a href="#" class="social-btn" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Student Name *</label>
+              <input type="text" id="fname" placeholder="Enter student name" required/>
+            </div>
+            <div class="form-group">
+              <label for="fclass">Class *</label>
+              <select id="fclass" required>
+                <option value="">Select Class</option>
+                <option>Class 6</option><option>Class 7</option><option>Class 8</option>
+                <option>Class 9</option><option>Class 10</option>
+                <option>Class 11</option><option>Class 12</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fphone">Phone Number *</label>
+              <input type="tel" id="fphone" placeholder="+91 XXXXX XXXXX" required/>
+            </div>
+            <div class="form-group">
+              <label for="fstream">Stream (for 11–12)</label>
+              <select id="fstream">
+                <option value="">Not Applicable</option>
+                <option>Science</option><option>Commerce</option><option>Arts</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="femail">Email Address</label>
+            <input type="email" id="femail" placeholder="your@email.com"/>
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Message / Question</label>
+            <textarea id="fmessage" rows="4" placeholder="Any specific subjects, preferred timing, or questions..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary w-full" id="formSubmitBtn">📤 Submit Enquiry</button>
+          <div class="form-success" id="formSuccess">
+            🎉 Thank you! We will call you back very soon. Welcome to Destination Point!
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-glow"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">🎓 Destination<span>Point</span></div>
+          <p>Guiding students from Class 6 to 12 under the West Bengal Board towards academic excellence and a brighter future.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="WhatsApp">📱</a>
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="YouTube">▶️</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#features">Why Choose Us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#batches">Batches & Fees</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Courses</h4>
+          <ul>
+            <li><a href="#courses">Class 6–8 (All Subjects)</a></li>
+            <li><a href="#courses">Class 9–10 (Madhyamik)</a></li>
+            <li><a href="#courses">Class 11–12 Science</a></li>
+            <li><a href="#courses">Class 11–12 Commerce</a></li>
+            <li><a href="#courses">Class 11–12 Arts</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>📍 West Bengal, India</p>
+          <p>📞 +91 98000 00000</p>
+          <p>📧 info@destinationpoint.in</p>
+          <p>⏰ Mon–Sat: 7AM–9PM</p>
+          <a href="#contact" class="btn-primary mt-20">Enroll Now</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2024 Destination Point Coaching Institute. All Rights Reserved. | Made with ❤️ in West Bengal</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
